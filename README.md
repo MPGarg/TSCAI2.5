@@ -11,9 +11,9 @@ For this problem 2 datasets are downloaded/created:
 
 While training the model there is For loop on MNIST DataLoader and <b>iter</b> on DataLoader for RandomNo for looping to the next batch.
 
-Approach used in this Network is to get a prediction of MNIST dataset first and concatenate that output with a random number. One hot encoding (F.one_hot) is used on both prediction and random number and for concatenation torch.cat is used. After this there will be 20 input features from the concatenated layer and that layer is passed to a fully connected layer (100 in this case) to the output layer (19 output).
+Approach used in this Network is to get a prediction of MNIST dataset first and concatenate that output with a random number. One hot encoding (F.one_hot) is used on both prediction & random number and torch.cat is used for concatenation. After this there will be 20 input features from the concatenated layer and this layer is passed to a fully connected layer (100 in this case) & finally to the output layer (19 output).
 
-Both of these outputs are returned and loss is calculated individually using F.cross_entropy for both of them because both are one hot encoded. Once loss is calculated individually and then it is summed up to get total loss. After this network is adjusted for total loss gradient.
+Both of these outputs are returned and loss is calculated individually using F.cross_entropy for both of them because both are one hot encoded. Loss is calculated individually and then it is summed up to get total loss. After this network is adjusted for total loss gradient.
 
 Results of this are evaluated for MNIST & Sum individually. <b>It was observed that after the initial epoch Sum results become tightly linked with MNIST prediction.</b>
 
