@@ -11,7 +11,7 @@ For this problem 2 datasets are merged in Class RandomNo_MNIST:
 
 RandomNo_MNIST is returning data of image & random number and their respective labels.
 
-Class Network is defined for Neural Network with 2 input & 2 output. Approach used in this Network is to get a prediction of MNIST dataset first and concatenate that output with a random number. Output of 10 features and One hot encoding (F.one_hot) of random number are concatenated using torch.cat. After this there will be 20 input features from the concatenated layer and this layer is passed to a fully connected layer (100 in this case) & finally to the output layer (19 output).
+Class Network is defined for Neural Network with 2 input & 2 output. Approach used in this Network is to get a prediction of MNIST dataset first and concatenate that output with a random number. Output of 10 features and One hot encoding (F.one_hot) of random number are concatenated using torch.cat. There will be 20 input features from the concatenated layer and this layer is passed to a fully connected layer (100 in this case) & finally to the output layer (19 output).
 
 Both of these outputs are returned and loss is calculated individually using F.cross_entropy for both of them because both are one hot encoded. Loss is calculated individually and then it is summed up to get total loss. After this network is adjusted for total loss gradient.
 
