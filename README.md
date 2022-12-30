@@ -21,7 +21,8 @@ Results of this are evaluated for MNIST & Sum individually. <b>It was observed t
 After 10 epoch Accuracy for both MNIST & Sum was 99.64 % for Training set and 99.38% for Test set.
 
 Training Log:
-![image](https://user-images.githubusercontent.com/120099863/209949828-926cc51b-0b28-4032-8c7c-d9480c804f13.png)
+![image](https://user-images.githubusercontent.com/120099863/210050873-385e6084-3228-4f53-9e68-57c789feb95a.png)
+
 
 
 
