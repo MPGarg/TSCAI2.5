@@ -18,7 +18,7 @@ Both of these outputs are returned and loss is calculated individually using F.c
 Results of this are evaluated for MNIST & Sum individually. <b>It was observed that after the initial epoch Sum results become tightly linked with MNIST prediction.</b>
 
 ## Accuracy
-After 10 epoch Accuracy for both MNIST & Sum was 99.64 % for Training set and 99.38% for Test set.
+After 10 epoch Accuracy for both MNIST & Sum was 99.70 % for Training set and 99.30% for Test set.
 
 Training Log:
 ![image](https://user-images.githubusercontent.com/120099863/210050873-385e6084-3228-4f53-9e68-57c789feb95a.png)
