@@ -18,10 +18,14 @@ MNIST prediction and Sum prediction are returned as output. First loss is calcul
 Results of this are evaluated for MNIST & Sum individually on Train & Test dataset. <b>It was observed that after the initial epoch Sum results become tightly linked with MNIST prediction.</b>
 
 ## Accuracy
-After 10 epoch Accuracy for both MNIST & Sum was 99.70 % for Training set and 99.30% for Test set.
+After 10 epoch Accuracy for both MNIST & Sum was 99.69 % for Training set and 99.21% for Test set.
 
 Training Log:
-![image](https://user-images.githubusercontent.com/120099863/210050873-385e6084-3228-4f53-9e68-57c789feb95a.png)
+![image](https://user-images.githubusercontent.com/120099863/211018312-0b517495-a0a7-4e1d-8809-e39691d84446.png)
+
+Test Set Result:
+![image](https://user-images.githubusercontent.com/120099863/211018397-739e2a2d-2dfe-4f8e-b856-6ca0e2cf22e9.png)
+
 
 
 
